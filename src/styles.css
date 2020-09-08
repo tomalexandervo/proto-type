@@ -3,6 +3,7 @@
 
 *{
   box-sizing: border-box;
+  zoom: 1.085;
 }
 body{
   background: #323437;
@@ -54,7 +55,7 @@ h1{
 }
 
 .stats{
-  color: black;
+  color: rgb(24, 24, 24);
 }
 
 .refresh{
@@ -68,7 +69,8 @@ h1{
 
 .refresh:hover{
   stroke: goldenrod;
-  transition: background 0.5s ease-in-out;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .svg{
@@ -83,4 +85,21 @@ footer{
   color: #646669;
   left: 50%;
   width: 50px;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
 }
