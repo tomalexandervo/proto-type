@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import useKeyPress from './hooks/useKeyPress';
 import { generate } from './utils/Words';
 import { currentTime } from './utils/Time';
-import './App.css';
+import './styles.css';
 
 
 function App() {
