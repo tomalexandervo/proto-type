@@ -28,16 +28,7 @@ body{
 
 .Character-current {
   opacity: 70%;
-  animation:blinkingText 1.25s infinite;
 
-}
-
-@keyframes blinkingText{
-  0%{     background:linear-gradient(90deg, goldenrod 14%, #323437 14%)    }
-  49%{    background:linear-gradient(90deg, goldenrod 14%, #323437 14%) }
-  60%{    background: transparent; }
-  99%{    background:transparent;  }
-  100%{   background:linear-gradient(90deg, goldenrod 14%, #323437 14%)    }
 }
 
 .Character-out {
